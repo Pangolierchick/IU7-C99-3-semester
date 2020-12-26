@@ -1,0 +1,195 @@
+#test1 bad row
+#input
+a
+#output
+None
+#exitcode
+1
+
+#test2 bad clm
+#input
+1 a
+#output
+None
+#exitcode
+1
+
+#test3 bad row
+#input
+2 2
+1
+2
+3
+4
+a
+#output
+None
+#exitcode
+1
+
+#test4 bad clm
+#input
+2 2
+1
+2
+3
+4
+2
+b
+#output
+None
+#exitcode
+1
+
+#test5
+#input
+2 2
+
+1 2
+3 4
+
+2 2
+
+5 6
+7 8
+
+1 1
+#output
+19 22
+43 50
+#exitcode
+0
+
+#test6
+#input
+2 2
+
+1 2
+3 4
+
+3 3
+
+1 2 3
+0 4 0
+1 1 1
+
+1 1
+#output
+2 11 4
+6 25 12
+2 11 4
+#exitcode
+0
+
+#test7
+#input
+2 2
+
+1 2
+3 4
+
+3 3
+
+1 2 3
+0 4 0
+1 1 1
+
+0 2
+#output
+4 13 6
+0 16 0
+2 7 4
+#exitcode
+0
+
+
+#test8
+#input
+1 3
+
+1 2 3
+
+3 1
+
+5
+6
+7
+
+1 1
+#output
+21
+#exitcode
+0
+
+#test9
+#input
+3 4
+
+1 -5 3 6
+0 1 -34 9
+3 6 12 0
+
+5 3
+
+3 5 1
+9 1 0
+-3 5 9
+5 5 1
+9 5 8
+
+1 1
+#output
+32 10 44
+86 50 73
+39 45 9
+#exitcode
+0
+
+#test10
+#input
+3 4
+
+1 -5 3 6
+0 1 -34 9
+3 6 12 0
+
+5 3
+
+3 5 1
+9 1 0
+-3 5 9
+5 5 1
+9 5 8
+
+0 0
+#output
+1 0 0
+0 1 0
+0 0 1
+#exitcode
+0
+
+
+
+#test11
+#input
+3 4
+
+1 -5 3 6
+0 1 -34 9
+3 6 12 0
+
+2 1
+
+3
+5
+
+1 1
+#output
+10 10 10
+50 50 50
+45 45 45
+
+#exitcode
+0
+

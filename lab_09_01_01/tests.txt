@@ -1,0 +1,219 @@
+#test 1
+#input
+None
+#args
+unexisting name
+#output
+None
+#exitcode
+1
+
+#test 2
+#input
+None
+#args
+func_tests/test5.txt
+#output
+None
+#exitcode
+1
+
+#test 3
+#input
+None
+#args
+func_tests/test3.txt year 234
+#output
+aaa
+aaaa
+234
+#exitcode
+0
+
+#test 4
+#input
+None
+#args
+func_tests/test4.txt name
+#output
+aaaaaaaaaaaaaaaaaaaaaaaa
+aaa
+213
+#exitcode
+0
+
+#test 5
+#input
+None
+#args
+func_tests/test4.txt neme
+#output
+None
+#exitcode
+1
+
+#test 6
+#input
+None
+#args
+func_tests/test1.txt name
+#output
+Silence
+Martin Scorsese
+2016
+Goodfellas
+Martin Scorsese
+1990
+Shutter Island
+Martin Scorsese
+2010
+the Simpsons
+Matt Groening
+1989
+Futurama
+Matt Groening
+1999
+#exitcode
+0
+
+#test 7
+#input
+None
+#args
+func_tests/test7.txt name
+#output
+None
+#exitcode
+1
+
+#test 8
+#input
+None
+#args
+func_tests/test8.txt name
+#output
+Escape from Shoushenk
+Franc Darabont
+1994
+Jumanji
+Jeck Kasdan
+1995
+American history X
+Tony Kye
+1998
+#exitcode
+0
+
+#test 9 (My test system has bug)
+#input
+None
+#args
+func_tests/test8.txt name "Tony Kye"
+#output
+American history X
+Tony Kye
+1998
+#exitcode
+0
+
+#test 10
+#input
+None
+#args
+func_tests/test8.txt year 2004
+#output
+Not found
+#exitcode
+0
+
+#test 11
+#input
+None
+#args
+func_tests/test9.txt name
+#output
+None
+#exitcode
+1
+
+#test 12
+#input
+None
+#args
+func_tests/test10.txt year
+#output
+None
+#exitcode
+1
+
+#test 13
+#input
+None
+#args
+func_tests/test11.txt name
+#output
+None
+#exitcode
+1
+
+#test 14
+#input
+None
+#args
+func_tests/test8.txt year 2004 1efwef
+#output
+None
+#exitcode
+1
+
+#test 15
+#input
+None
+#args
+func_tests/test8.txt year aaa
+#output
+None
+#exitcode
+1
+
+#test 16
+#input
+None
+#args
+func_tests/test12.txt year aaa
+#output
+None
+#exitcode
+1
+
+#test 17
+#input
+None
+#args
+func_tests/test13.txt year 123
+#output
+None
+#exitcode
+1
+
+#test 19
+#input
+None
+#args
+func_tests/test15.txt year 123
+#output
+aaaaaaaaaaaaaaaaaaaaaaaaa
+a
+123
+#exitcode
+0
+
+#test 20
+#input
+None
+#args
+func_tests/test16.txt year 123
+#output
+None
+#exitcode
+1
